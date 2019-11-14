@@ -106,4 +106,5 @@ def can_destroy_all_items_at_once
   Movie.all.each do |a|
     a.delete
   end
+  #movie.delete_all
 end
